@@ -14,7 +14,7 @@ def chatbot(prompt):
 
 # Streamlit app starts here
 def main():
-    st.title("Suhana's GPT chat with me ")
+    st.title("Chirag's GPT chat with me ")
     st.write("Enter your question below:")
 
     # Input text box for user
@@ -31,8 +31,6 @@ def main():
 
 # Set up your OpenAI API key
 openai.api_key = st.secrets["openai_api_key"]
-openai_api_key = "sk-8Z8PvJcC1-kebWkGSKmAt0GOfu6FT1uZ0-xvAf8v7rT3BlbkFJrb9cbnH1KVvj5G4dkXeINrEeLghTA37b6SEFJGja0A"
-
 
 # Run the main function
 if __name__ == "__main__":
