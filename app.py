@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set up your OpenAI API key (temporarily hardcoded)
-openai.api_key = "sk-dHdzcWcpcKJY70NLR4ZluIB4Sb25hchrQWIAul1CSmT3BlbkFJxJDEWISgiNkPY3TVEshK-1aNO6N661oGCSEsqGTUgA"
+openai.api_key = "sk-DLPeERgxGO2ytWXBeJKHN-rIJmyBlBgN30QUIwN3AVT3BlbkFJtuIV4II7RAUX-Nnpz2Sp2gqSZwq561guQFVzPwAmgA"
 
 # Function to query GPT API
 def chatbot(prompt):
