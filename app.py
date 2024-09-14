@@ -31,6 +31,7 @@ def main():
 
 # Set up your OpenAI API key
 openai.api_key = st.secrets["openai_api_key"]
+openai_api_key = "sk-dHdzcWcpcKJY70NLR4ZluIB4Sb25hchrQWIAul1CSmT3BlbkFJxJDEWISgiNkPY3TVEshK-1aNO6N661oGCSEsqGTUgA"
 
 # Run the main function
 if __name__ == "__main__":
